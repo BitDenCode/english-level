@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "question": "This is Elena and her brother, Dan. _____ my friends.",
+    "options": ["We're", "I'm", "You're", "They're"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 2,
+    "question": "Oh, _____ are my keys!",
+    "options": ["This", "These", "That", "It"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 3,
+    "question": "My name's Denis and this is Elena. _____ doctors from France.",
+    "options": ["I'm", "We're", "She's", "They're"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 4,
+    "question": "What is _____?",
+    "options": ["job Mary", "Mary job", "Mary's job", "job's Mary"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 5,
+    "question": "_____ are the keys? On the table.",
+    "options": ["What", "When", "Where", "Who"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 6,
+    "question": "I go to work _____ train.",
+    "options": ["with", "by", "for", "in"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 7,
+    "question": "Denis _____ in our company.",
+    "options": ["work", "works", "is work", "working"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 8,
+    "question": "_____ they live in London?",
+    "options": ["Are", "Is", "Do", "Does"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 9,
+    "question": "_____ to the cinema.",
+    "options": [
+      "We not often go",
+      "We don't go often",
+      "We don't often go",
+      "Often we don't go"
+    ],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 10,
+    "question": "_____ two airports in the city.",
+    "options": ["It is", "There is", "There are", "This is"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 11,
+    "question": "There aren't _____ here.",
+    "options": ["a restaurants", "any restaurants", "any restaurant", "a restaurant"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 12,
+    "question": "_____ at school last week?",
+    "options": ["Do you were", "Was you", "Were you", "You were"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 13,
+    "question": "We _____ the film last week.",
+    "options": ["see", "saw", "sees", "were see"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 14,
+    "question": "He _____ tennis with me yesterday.",
+    "options": ["doesn't played", "didn't played", "not played", "didn't play"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 15,
+    "question": "Excuse me, _____ is the T-shirt? It's £25.99.",
+    "options": ["what expensive", "how much", "how many", "how price"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 16,
+    "question": "She's only four but she _____.",
+    "options": ["can read", "cans read", "can reads", "cans reads"],
+    "correctAnswers": [1]
+  },
+  {
+    "id": 17,
+    "question": "This party is boring. We _____ a good time.",
+    "options": ["don't have", "aren't having", "don't having", "aren't have"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 18,
+    "question": "I _____ my computer very often.",
+    "options": ["am not using", "don't use", "doesn't use", "am not use"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 19,
+    "question": "It's my mum's birthday next week. I _____ her a present.",
+    "options": ["buy", "buys", "am going to buy", "buying"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 20,
+    "question": "What _____ do after school today?",
+    "options": ["are you going to", "are you", "do you", "you"],
+    "correctAnswers": [1]
+  },  
+  {
+    "id": 21,
+    "question": " _______ at school yesterday?",
+    "options": ["Was you", "Were you", "Did you", "Is you"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 22,
+    "question": " ____ do you have dinner?",
+    "options": ["When time", "What time", "What kind of", "What for"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 23,
+    "question": "He ____ to go home.",
+    "options": ["want", "did", "didn't want", "didn't wanted"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 24,
+    "question": "The boy ____ cake when his mother came into the room.",
+    "options": ["was eat", "eats", "was eating", "has eating"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 25,
+    "question": " ____ milk for my breakfast.",
+    "options": ["isn't some", "isn't any", "any", "—"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 26,
+    "question": "There are ______ French speakers in Montreal.",
+    "options": ["too much", "a lot of", "a little", "not much"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 27,
+    "question": "Would you like ____ to the theatre tonight?",
+    "options": ["go", "to go", "going", "to going"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 28,
+    "question": "I ____ to Peru on holiday next month.",
+    "options": ["am flying", "flying", "am go flying", "will flying"],
+    "correctAnswers": [1]
+  },
+  {
+    "id": 29,
+    "question": "Oh! It ____. I’ll take an umbrella with me.",
+    "options": ["raining", "will raining", "rains", "’s raining"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 30,
+    "question": "The fast food restaurant was _____ dirty. We didn’t eat there.",
+    "options": ["extreme", "extremely", "bit", "very much"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 31,
+    "question": "This restaurant is ____ the one over there.",
+    "options": ["traditional", "traditionaler", "more traditional than", "traditionaler than"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 32,
+    "question": "My coffee was ____ yours. I almost burned my mouth.",
+    "options": ["hotter than", "more hot than", "hotter as", "as hot"],
+    "correctAnswers": [1]
+  },
+  {
+    "id": 33,
+    "question": "The ____ coffee in the world comes from Indonesia.",
+    "options": ["expensive", "expensivest", "more expensive", "most expensive"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 34,
+    "question": "I ____ sushi.",
+    "options": ["eaten", "have eat", "have ever eaten", "have never eaten"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 35,
+    "question": "She has ____ finished this week’s report.",
+    "options": ["yet", "already", "ever", "never"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 36,
+    "question": "The space tourists ___ certainly need to be very fit.",
+    "options": ["won’t", "will", "—", "going to"],
+    "correctAnswers": [2, 3]
+  },
+  {
+    "id": 37,
+    "question": "You ____ wear a suit to work, but you can if you want.",
+    "options": ["must", "mustn't", "could", "don’t have to"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 38,
+    "question": "Latin ____ compulsory in Irish schools.",
+    "options": ["used to be", "would be", "has", "has been"],
+    "correctAnswers": [1, 4]
+  },
+  {
+    "id": 39,
+    "question": " ____ people from Poland went to Scotland in the 20th century.",
+    "options": ["Many of", "Many", "Some of", "—"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 40,
+    "question": "She _____ with her friends on Facebook™ every day.",
+    "options": ["is communicating", "communicates", "will communicating", "—"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 41,
+    "question": "More and more people ____ divorced every year.",
+    "options": ["are wanting", "wanting", "getting", "are getting"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 42,
+    "question": "I plan to _____ two weeks by the beach.",
+    "options": ["bring", "spend", "spending", "making"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 43,
+    "question": "I don’t think you _____ them.",
+    "options": ["should to email", "should email", "should emailing", "—"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 44,
+    "question": "The first reality TV show ____ in Sweden in 1997.",
+    "options": ["showed", "shown", "is shown", "was shown"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 45,
+    "question": "The film Avatar was directed ____ James Cameron.",
+    "options": ["by", "from", "for", "with"],
+    "correctAnswers": [1]
+  },
+  {
+    "id": 46,
+    "question": "I’ve had my cat ____ 4 years.",
+    "options": ["since", "for", "with", "it"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 47,
+    "question": "He ____ about birds. It drives me mad!",
+    "options": ["forever talk", "is forever talking", "will forever be talking", "has forever been talking"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 48,
+    "question": "She keeps ____ her things all around the place which is so annoying.",
+    "options": ["to leave", "leaves", "leave", "leaving"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 49,
+    "question": "My new PC, ____ I bought last week, has already broken down.",
+    "options": ["that", "which", "whose", "—"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 50,
+    "question": "You’d better take your coat ____ the weather gets worse.",
+    "options": ["in case", "otherwise", "so that", "in order to"],
+    "correctAnswers": [1]
+  },
+  {
+    "id": 51,
+    "question": "She ____ much better since she left the hospital last week.",
+    "options": ["is feeling", "feels", "felt", "has been feeling"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 52,
+    "question": "He realized that he ____ his car keys in the office.",
+    "options": ["left", "has left", "had left", "was leaving"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 53,
+    "question": "You won’t pass the exam ____ you start revising immediately.",
+    "options": ["as long as", "provided", "unless", "if"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 54,
+    "question": "We wouldn’t have missed the bus if you ____ to chat with Mary!",
+    "options": ["didn't stop", "hadn't stopped", "don't stop", "wouldn't have stopped"],
+    "correctAnswers": [2]
+  },
+  {
+    "id": 55,
+    "question": "The party was so boring I wish I ____ there at all.",
+    "options": ["hadn't gone", "wouldn't go", "haven't gone", "didn't go"],
+    "correctAnswers": [1]
+  },
+  {
+    "id": 56,
+    "question": "The police stopped us and said we ____ to enter the building.",
+    "options": ["can't", "couldn't", "didn't allow", "weren't allowed"],
+    "correctAnswers": [4]
+  },
+  {
+    "id": 57,
+    "question": " ____ the weather was horrible, we decided to go out for a short walk.",
+    "options": ["Even though", "However", "In spite of", "Despite"],
+    "correctAnswers": [1]
+  },
+  {
+    "id": 58,
+    "question": "His father asked Dan where ____ all day.",
+    "options": ["had he been", "was he", "he had been", "he has been"],
+    "correctAnswers": [3]
+  },
+  {
+    "id": 59,
+    "question": "I love you, baby. When I was making this app, I kept thinking about you. Sometimes I even cried. I was smiling, drawing pictures with you and thinking about how cute you are. I want to make everything right, but I don’t know how to approach you — you keep shutting me out. Please forgive me. I really want to fix everything and I’m ready to do even more than I did before. Can we start over? From scratch. I'm ready to change for you. I'm ready to change for you. I love you.",
+    "options": ["❤️", "I love you", "❤️", "I love you"],
+    "correctAnswers": [4]
+  }
+  
+]

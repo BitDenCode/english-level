@@ -1,0 +1,44 @@
+.res-container {
+  background-color: #4a90e2;
+  /*background-color: #f8f9fb;*/
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.start-screen {
+  text-align: center;
+  padding: 40px;
+  max-width: 500px;
+  margin: auto;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+}
+
+.start-image {
+  width: 120px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.start-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s ease;
+}
+
+.start-button:hover {
+  background-color: #357ac8;
+}
