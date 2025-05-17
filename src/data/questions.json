@@ -1,19 +1,19 @@
 [
   {
     "id": 1,
-    "question": "This is Elena and her brother, Dan. _____ my friends.",
+    "question": "This is Elena and her brother, Dan. _____ teachers.",
     "options": ["We're", "I'm", "You're", "They're"],
     "correctAnswers": [4]
   },
   {
     "id": 2,
-    "question": "Oh, _____ are my keys!",
+    "question": "Look! _____ are my new shoes.",
     "options": ["This", "These", "That", "It"],
     "correctAnswers": [2]
   },
   {
     "id": 3,
-    "question": "My name's Denis and this is Elena. _____ doctors from France.",
+    "question": "My name's Denis and this is Elena. _____ engineers from USA.",
     "options": ["I'm", "We're", "She's", "They're"],
     "correctAnswers": [2]
   },
@@ -31,7 +31,7 @@
   },
   {
     "id": 6,
-    "question": "I go to work _____ train.",
+    "question": "He goes to school _____ bus.",
     "options": ["with", "by", "for", "in"],
     "correctAnswers": [2]
   },
@@ -150,7 +150,7 @@
   },
   {
     "id": 25,
-    "question": " ____ milk for my breakfast.",
+    "question": "There ____ milk for my breakfast.",
     "options": ["isn't some", "isn't any", "any", "—"],
     "correctAnswers": [2]
   },
@@ -354,8 +354,8 @@
   },
   {
     "id": 59,
-    "question": "I love you, baby. When I was making this app, I kept thinking about you. Sometimes I even cried. I was smiling, drawing pictures with you and thinking about how cute you are. I want to make everything right, but I don’t know how to approach you — you keep shutting me out. Please forgive me. I really want to fix everything and I’m ready to do even more than I did before. Can we start over? From scratch. I'm ready to change for you. I'm ready to change for you. I love you.",
-    "options": ["❤️", "I love you", "❤️", "I love you"],
+    "question": "She advised him ______ sun cream.",
+    "options": ["putting", "put on", "to putting on", "to put on"],
     "correctAnswers": [4]
   }
   

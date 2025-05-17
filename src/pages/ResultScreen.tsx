@@ -2,7 +2,9 @@ import React, { useEffect, useState } from "react";
 import "./ResultScreen.css";
 import { useLocation, useNavigate } from "react-router-dom";
 import jsPDF from "jspdf";
-import "jspdf-autotable";
+
+
+
 
 type Question = {
   question: string;
@@ -64,11 +66,58 @@ const ResultScreen: React.FC = () => {
     const doc = new jsPDF();
     doc.setFontSize(16);
     doc.text("English Language Test Results", 10, 20);
+    doc.setFontSize(12);
     doc.text(`Correct answers: ${score}/${questions.length}`, 10, 30);
-    doc.text(`Level: ${level}`, 10, 40);
-    doc.text(`Name: ${formValue.trim()}`, 10, 50);
+    doc.text(`Level: ${level}`, 10, 38);
+    doc.text(`Name: ${formValue.trim()}`, 10, 46);
+
+    let y = 60; // стартовая позиция по Y
+
+    questions.forEach((q, index) => {
+      const userAnswerIndex = userAnswers[index];
+      const isCorrect = q.correctAnswers.includes(userAnswerIndex ?? -1);
+      const resultMark = isCorrect ? "YES" : "NO";
+
+      // Текст вопроса
+      doc.setTextColor(0, 0, 0);
+      doc.setFont("helvetica", "bold");
+      doc.text(`${index + 1}. Question:`, 10, y);
+      y += 6;
+
+      doc.setFont("helvetica", "normal");
+      const wrappedQuestion = doc.splitTextToSize(q.question, 180);
+      doc.text(wrappedQuestion, 12, y);
+      y += wrappedQuestion.length * 6;
+
+      // Ответ пользователя
+      const userAnswerText = userAnswerIndex !== null ? q.options[userAnswerIndex] : "—";
+      if (!isCorrect) {
+        doc.setTextColor(200, 0, 0); // красный цвет
+        doc.setFont("helvetica", "bold");
+      } else {
+        doc.setTextColor(0, 150, 0); // обычный чёрный
+        doc.setFont("helvetica", "normal");
+      }
+      doc.text(`Your answer: ${userAnswerText}`, 12, y);
+      y += 6;
+
+
+      // Метка правильности
+      doc.text(`Result: ${resultMark}`, 12, y);
+      y += 10;
+
+      // Новая страница при переполнении
+      if (y > 270) {
+        doc.addPage();
+        y = 20;
+      }
+    });
+
     doc.save("english-test-result.pdf");
   };
+
+
+
 
   return (
     <div className="result-container">

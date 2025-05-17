@@ -69,3 +69,20 @@
   background-color: #ccc;
   cursor: not-allowed;
 }
+
+
+.prev-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  background-color: #6c36cf;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.2s ease;
+}
+
+.prev-button:hover {
+  background-color: #1063c2;
+}

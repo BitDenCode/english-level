@@ -25,7 +25,6 @@ const QuestionScreen: React.FC = () => {
     newAnswers[currentIndex] = index;
     setAnswers(newAnswers);
 
-    // Переход к следующему вопросу или результату
     const isLast = currentIndex === questions.length - 1;
 
     if (isLast) {
@@ -45,7 +44,13 @@ const QuestionScreen: React.FC = () => {
     } else {
       setTimeout(() => {
         setCurrentIndex(currentIndex + 1);
-      }, 200); // небольшая задержка для UX
+      }, 200);
+    }
+  };
+
+  const handlePrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex - 1);
     }
   };
 
@@ -66,6 +71,14 @@ const QuestionScreen: React.FC = () => {
               onClick={() => handleOptionClick(index)}
             />
           ))}
+        </div>
+
+        <div className="nav-buttons">
+          {currentIndex > 0 && (
+            <button className="prev-button" onClick={handlePrevious}>
+              Предыдущий вопрос
+            </button>
+          )}
         </div>
       </div>
     </div>
